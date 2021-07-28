@@ -1,0 +1,344 @@
+/* Styles sheet for retrosugar.com created by David Ventura */
+
+/* Style for Fluid image properties */
+img {
+	max-width: 100%;
+}
+
+/* Style for Width and margin properties of container */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* style for display. font, margin, padding, border radius, background color, and opacity of main element */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 2em 0 2em 0;
+	background-color: #FFFFFF;
+	opacity: 0.85;
+}
+
+/* Style for Video class adds padding and aligns to center */
+.video {
+	padding: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+/* Style rule for video adds border and reduces width size to 50% */
+.videoborder {
+	border: 1em ridge #ffb6c1;
+	height: auto;
+	max-width: 90vw;
+	flex: 1 1 auto;
+}
+
+.videoborder iframe {
+    width: 100%;
+    height: 50vw;
+}
+
+/* Style for Text properties of nav section */
+nav {
+	font-family: Georgia,"Times New Roman",serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+}
+
+/* Style for list properties of nav section */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for background-color, radius, removed bullet points, margin, and radius properties of nav section */
+nav li {
+	background-color: #ffb6c1;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+/* Style for text color black and underline removal properties of nav section */
+nav li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Style specifies a horizontal display for navigation links */
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	white-space: nowrap;
+	border-radius: 0;
+	background-color: ffb6c1;
+}
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+	clear: left;
+	margin-top: -0.3em;
+	border-radius: 0;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #000000;
+}
+
+/* Style for table elements borders, margins, and width */
+table {
+	border: 0.1em solid #000000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/* Style specifies border and padding for th and td elements */
+th, td {
+	border: 0.1em solid #000000;
+	padding: 1em;
+}
+
+/* Style for th element's background color and font color */
+th {
+	background-color: #CBC3E3;
+	color: #000000;
+}
+
+/*Style for td element gives purple pastel colored background, bolds text, and aligns to center*/
+td {
+	background-color: #ffb6c1;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Style hides the mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style displays the desktop class */
+.desktop {
+	display: block;
+}
+
+/* Style adds flex to form */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Style for mobile class */
+@media only screen and (max-width: 600px) {
+
+/* style for mobile display */
+.mobile {
+	display: inline;
+}
+
+/* style hides desktop class */
+.desktop {
+	display: none;
+}
+
+/* Style increases width of video to 100% for mobile only */
+.videoborder {
+	border: 1em ridge #ffb6c1;
+	height: auto;
+	max-width: 100%;
+}
+
+/* Style centers logo above the nav links */
+header {
+	text-align: center;
+	padding-bottom: 0.7em;
+}
+}/* End of mobile styling */
+	
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 601px) and (max-width: 829px) {
+	
+/* Style rule for the video class adds padding and aligns video to center */
+.video {
+	padding: 1em;
+	text-align: center;
+}
+
+/* style rule adds border */
+.videoborder {
+	border: 1em ridge #ffb6c1;
+	height: auto;
+	max-width: 100%;
+}
+
+/* Style for mobile header aligned to center */
+header {
+	text-align: center;
+	padding-bottom: 0.7em;
+}
+
+/* Hide mobile */
+.mobile {
+	display: none;
+}
+
+}/* end of tablet styles */
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+@media only screen and (min-width: 830px) {
+
+/* Style class reduces size of images to 50% */	
+.titlePicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* style aligns h2 elements to the center */
+h2 {
+	text-align: center;
+}
+
+/* style aligns h3 elements to the center */
+h3 {
+	text-align: center;
+}
+
+/* Style for caption element */
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+/* End of Table styling elements */
+
+/* Style for h1 element */
+h1 {
+	text-align: center;
+}
+
+/* Style to left align header */
+header {
+	text-align: left;
+}
+
+/* Style for nav specifies a float, margin, and width */
+nav {
+	float: right;
+	margin-top: -7em;
+	margin-right: 3em;
+	margin-bottom: 0;
+	width: 65%;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
+nav li {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 20%;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+	text-shadow: 0.2em 0.1em #ffb6c1;
+}
+
+/* Style specifies background color for main element */
+main {
+	background-color: #ffffff;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+/* Style applies color to h1 element */
+h1 {
+	color: #FFFFFF;
+}
+
+/* Style specifies a background color, margin, and padding for footer element */
+footer {
+	background-color: #FFFFFF;
+	margin-top: -0.2em;
+	padding: 2em;
+}
+
+/* Style for main h2 element */
+main h2 {
+	color: #000000;
+}
+
+/* Style for table element */
+
+table {
+	background-color: #FFFFFF;
+	width: 85%;
+}
+
+/* Style for caption element */
+caption {
+	color: #000000;
+}
+
+/* Style for h1 element */
+h1 {
+	text-align: center;
+	color: #000000;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style hides the tablet class */
+.tablet {
+	display: block;
+}
+
+.desktop {
+	display: block;
+}
+/* End of desktop style properties */
+
+}
+/* End of style rules */
