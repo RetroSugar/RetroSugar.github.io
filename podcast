@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- This website template was created by David Ventura -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>RetroSugar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="container">
+
+<!-- Header area for website name and logo -->
+	<header>
+		<a href="index.html"><img src="images/NewRetroHappy.png" alt="RetroSugar Logo"></a>
+	</header>
+	
+<!-- Nav area hyperlinks for website content -->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="videos.html">Videos</a></li>
+			<li><a href="schedule.html">Schedule</a></li>
+			<li><a href="podcast.html">Podcast</a></li>
+		</ul>
+	</nav>
+	
+<!-- Main content of website -->
+	<main>
+	
+<!-- Start of game reviews -->
+
+<!-- Mega Man Series Review -->
+	<h1>Not A Cult Podcast</h1>
+	<img class="titlePicture" src="images/NotACult.jpg" alt="Not A Cult Podcast">
+	<p>Not A Cult Podcast is recorded live at <a href="https://www.twitch.tv/d3gradation">Deg's Twitch Channel</a>
+	
+	
+<!-- End of game reviews -->
+	</main>
+	
+<!-- Footer area of website -->
+	<footer>
+		&copy; Copyright 2020. All Rights Reserved. <br>
+		<a href="mailto:retrosugarttv@gmail.com">retrosugarttv@gmail.com</a>
+	</footer>
+	
+	</div>
+</body>
+</html>
